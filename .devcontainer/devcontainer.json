@@ -1,0 +1,22 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/davzucky/devcontainers-features-wolfi/python:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"vscode-icons-team.vscode-icons",
+				"wayou.vscode-todo-highlight"
+			],
+			"settings": {
+				"editor.fontSize": 24,
+				"terminal.integrated.fontSize": 24,
+				"editor.wordWrap": "on"
+			}
+			
+		}
+		
+	 }
+}
